@@ -46,7 +46,7 @@ class Users(Resource):
         get_movie_recommendation(name)
         return {'data': movie_titles}, 201
 
-api.add_resource(Users, '/users')
+api.add_resource(Users, '/')
 
 # @app.route('/users',methods=['POST'])
 # def movie_recommendated():
